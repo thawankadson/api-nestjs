@@ -1,0 +1,32 @@
+### list developers
+
+GET http://localhost:3000/developers
+
+### get developers
+
+GET http://localhost:3000/developers/dev_42GCI-UsmQ9yh9ICdDBw2
+
+### create developers
+
+POST  http://localhost:3000/developers
+Content-Type: application/json
+
+{
+    "name": "thawan kadson",
+    "email": "thawan123@gmail.com",
+    "dateOfBirth": "2003-06-25"
+}
+
+### update developers
+
+PATCH   http://localhost:3000/developers/
+Content-Type: application/json
+
+{
+    "email": "miguel1234@gmail.com",
+}
+
+
+### delete developers
+
+DELETE  http://localhost:3000/developers/dev_0GsPT1TIGmKVpOlWHLJJc"
